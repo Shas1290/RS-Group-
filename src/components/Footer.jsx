@@ -1,7 +1,7 @@
 
 export default function Footer() {
   return (
-    <footer className="mt-20 w-full border-t border-stone-200 bg-gradient-to-b from-[#fffdf7] via-white to-[#f8f7f2]">
+    <footer className="w-full border-t border-stone-200 bg-gradient-to-b from-[#fffdf7] via-white to-[#f8f7f2]">
       <div className="max-w-7xl mx-auto w-full px-4 md:px-8 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-10 lg:gap-14 items-stretch">
           <div className="rounded-[2rem] border border-stone-200 bg-white/90 shadow-[0_20px_60px_rgba(15,23,42,0.08)] p-8 md:p-10 flex flex-col justify-between">

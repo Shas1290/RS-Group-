@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
 
 const showcaseSlides = [
   {
@@ -135,10 +133,8 @@ export default function Documentation() {
   }, []);
 
   return (
-    <main className="min-h-screen bg-[#f7f1e6] text-[#0e1a2f]">
-      <div className="absolute top-0 left-0 z-50 w-full">
-        <Navbar />
-      </div>
+    <div className="w-full bg-[#f7f1e6] text-[#0e1a2f]">
+
 
       <section className="relative isolate overflow-hidden">
         <div className="absolute inset-0">
@@ -483,8 +479,8 @@ export default function Documentation() {
         </div>
       </section>
 
-      <Footer />
-    </main>
+
+    </div>
   );
 }
 

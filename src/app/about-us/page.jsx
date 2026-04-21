@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
 const stats = [
   { value: "20+", label: "Years of market presence" },
@@ -113,10 +111,8 @@ const item = {
 
 export default function AboutUs() {
   return (
-    <main className="min-h-screen overflow-hidden bg-[#07111f] text-white">
-      <div className="absolute top-0 left-0 z-50 w-full">
-        <Navbar />
-      </div>
+    <div className="overflow-hidden bg-[#07111f] text-white">
+
 
       <section className="relative isolate flex min-h-screen items-center overflow-hidden">
         <div className="absolute inset-0">
@@ -453,8 +449,8 @@ export default function AboutUs() {
         </motion.div>
       </section>
 
-      <Footer />
-    </main>
+
+
   );
 }
 

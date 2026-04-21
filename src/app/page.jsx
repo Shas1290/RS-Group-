@@ -1,9 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
-import Navbar from '../components/Navbar';
 import HeroSlider from '../components/HeroSlider';
 import HomeAboutSection from '@/components/HomeAboutSection';
 import RiveraSlideshow from '@/components/RiveraSlideshow';
-import Footer from '@/components/Footer'
 
 const homeHighlights = [
   { title: 'Welcome', src: '/Riviera-Greens-Brochure-02.png', alt: 'Welcome to RS Group' },
@@ -57,12 +55,9 @@ export default function Home() {
 
   return (
     <>
-    <main className="relative w-full min-h-screen bg-gray-50">
+    <div className="relative w-full bg-gray-50">
       
-      {/* 2. Place the Navbar at the top with a high z-index (z-50) */}
-      <div className="absolute top-0 left-0 w-full z-50">
-        <Navbar />
-      </div>
+
 <div className="relative w-full h-screen">
  <div className="absolute inset-0 z-0">
         <HeroSlider /> 
@@ -446,9 +441,9 @@ export default function Home() {
         </div>
       )}
 
-      <Footer />
 
-    </main>
+
+    </div>
     </>
     
   );

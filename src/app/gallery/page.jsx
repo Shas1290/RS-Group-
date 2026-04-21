@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
 const galleryImages = [
   {
@@ -170,10 +168,8 @@ export default function Gallery() {
   }, [selectedImage]);
 
   return (
-    <main className="min-h-screen overflow-hidden bg-[#07111f] text-white">
-      <div className="absolute top-0 left-0 z-50 w-full">
-        <Navbar />
-      </div>
+    <div className="w-full overflow-hidden bg-[#07111f] text-white">
+
 
       <section className="relative isolate overflow-hidden">
         <div className="absolute inset-0">
@@ -470,8 +466,8 @@ export default function Gallery() {
         </div>
       )}
 
-      <Footer />
-    </main>
+
+    </div>
   );
 }
 
