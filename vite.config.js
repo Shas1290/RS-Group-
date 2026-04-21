@@ -9,16 +9,7 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  esbuild: {
-    loader: 'jsx',
-    include: /src\/.*\.js$/,
-    exclude: [],
-  },
-  optimizeDeps: {
-    esbuildOptions: {
-      loader: {
-        '.js': 'jsx',
-      },
-    },
+  build: {
+    chunkSizeWarningLimit: 1000, // Increase limit to silence the large chunk warning
   },
 });
