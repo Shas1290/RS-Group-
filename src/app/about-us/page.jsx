@@ -448,9 +448,7 @@ export default function AboutUs() {
           </motion.div>
         </motion.div>
       </section>
-
-
-
+    </div>
   );
 }
 
