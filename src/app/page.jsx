@@ -4,8 +4,8 @@ import HomeAboutSection from '@/components/HomeAboutSection';
 import RiveraSlideshow from '@/components/RiveraSlideshow';
 
 const homeHighlights = [
-  { title: 'Welcome', src: '/Riviera-Greens-Brochure-02.png', alt: 'Welcome to RS Group' },
-  { title: 'About RS', src: '/Riviera-Greens-Brochure-05.png', alt: 'About RS Group' },
+  { title: 'Welcome', src: '/Riviera-Greens-Brochure-02.png', alt: 'Welcome to Riviera Greens' },
+  { title: 'About Riviera', src: '/Riviera-Greens-Brochure-05.png', alt: 'About Riviera Greens' },
   { title: 'Amenities', src: '/Riviera-Greens-Brochure-06.png', alt: 'Amenities at the property' },
   { title: 'Infrastructure', src: '/Riviera-Greens-Brochure-08.png', alt: 'Infrastructure overview' },
   { title: 'Location', src: '/Riviera-Greens-Brochure-09.png', alt: 'Project location highlights' },
@@ -83,7 +83,7 @@ export default function Home() {
             </div>
             
             <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">
-              Why Choose RS Group?
+              Why Choose Riviera Greens?
             </h2>
             <p className="text-gray-600 text-lg">
               We ensure hassle-free property investments with premium quality developments and transparent dealings.
@@ -374,7 +374,7 @@ export default function Home() {
       <section className="max-w-7xl mx-auto px-4 py-20">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">
-            Discover More With RS Group
+            Discover More With Riviera Greens
           </h2>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto">
             Browse the key highlights that define our vision, planning, and long-term value.

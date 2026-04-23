@@ -7,11 +7,11 @@ export default function Footer() {
           <div className="rounded-[2rem] border border-stone-200 bg-white/90 shadow-[0_20px_60px_rgba(15,23,42,0.08)] p-8 md:p-10 flex flex-col justify-between">
             <div>
               <div className="inline-flex items-center rounded-full border border-[#d4af37]/30 bg-[#fff6d8] px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.3em] text-[#9f7a18]">
-                RS Group
+                Riviera Greens
               </div>
 
               <div className="mt-6 mb-8 flex items-center gap-6">
-                <img src="/logo.webp" alt="RS Group" className="h-20 object-contain" />
+                <img src="/riviera.png" alt="Riviera Greens" className="h-20 object-contain" />
               </div>
             </div>
 

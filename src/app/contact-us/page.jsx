@@ -106,7 +106,7 @@ export default function ContactUs() {
       general: "General Inquiry",
     };
 
-    const emailSubject = subjectLabels[formData.subject] ?? "RS Group Inquiry";
+    const emailSubject = subjectLabels[formData.subject] ?? "Riviera Greens Inquiry";
     const emailBody = [
       `Name: ${formData.name}`,
       `Email: ${formData.email}`,
@@ -146,7 +146,7 @@ export default function ContactUs() {
         <div className="absolute inset-0">
           <img
             src="/garden_image.webp"
-            alt="RS Group contact"
+            alt="Riviera Greens contact"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-[linear-gradient(135deg,rgba(4,11,21,0.9),rgba(6,22,38,0.72),rgba(4,11,21,0.94))]" />
@@ -163,7 +163,7 @@ export default function ContactUs() {
           <div className="grid gap-12 lg:grid-cols-[1.08fr_0.92fr] lg:items-end">
             <div className="max-w-3xl">
               <p className="inline-flex rounded-full border border-white/15 bg-white/8 px-4 py-2 text-xs uppercase tracking-[0.35em] text-[#f0cd75] backdrop-blur">
-                Contact RS Group
+                Contact Riviera Greens
               </p>
               <h1 className="mt-6 text-5xl font-semibold leading-[1.02] tracking-tight text-white md:text-7xl">
                 A warmer, more premium place to start the conversation.
@@ -300,7 +300,7 @@ export default function ContactUs() {
                 <div className="relative h-72">
                   <img
                     src="/commercial.webp"
-                    alt="RS Group consultation"
+                    alt="Riviera Greens consultation"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(7,17,31,0.08),rgba(7,17,31,0.78))]" />

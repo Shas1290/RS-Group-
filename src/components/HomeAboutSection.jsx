@@ -57,12 +57,12 @@ export default function HomeAboutSection() {
 
             {/* Main Heading */}
             <h2 className="text-4xl md:text-5xl font-bold text-[#1e293b] mb-6 leading-tight">
-              Welcome to RS Group
+              Welcome to Riviera Greens
             </h2>
 
             {/* Paragraph */}
             <p className="text-gray-600 text-base md:text-lg leading-relaxed mb-8">
-              Your trusted real estate partner in Gwalior, bringing excellence in property development and customer satisfaction. With years of experience, RS Group is dedicated to crafting world-class residential and commercial spaces that redefine urban living.
+              Your trusted real estate partner in Gwalior, bringing excellence in property development and customer satisfaction. With years of experience, Riviera Greens is dedicated to crafting world-class residential and commercial spaces that redefine urban living.
             </p>
 
             {/* Bullet List */}
@@ -83,7 +83,7 @@ export default function HomeAboutSection() {
                 to="/about-us" 
                 className="inline-flex items-center gap-2 bg-[#fde047] hover:bg-[#facc15] text-gray-900 font-semibold px-8 py-3.5 rounded-full transition-all shadow-sm hover:shadow-md"
               >
-                More About RS Group 
+                More About Riviera Greens
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>

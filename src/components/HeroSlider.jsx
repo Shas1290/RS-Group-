@@ -37,7 +37,7 @@ export default function HeroSlider() {
       <div className="absolute inset-x-0 bottom-20 z-20 mx-auto w-full max-w-7xl px-4 md:bottom-24 md:px-8 lg:bottom-28">
         <div className="max-w-3xl">
           <p className="inline-flex rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs uppercase tracking-[0.35em] text-[#f0cd75] backdrop-blur">
-            RS Group
+            Riviera Greens
           </p>
           <h1 className="mt-6 text-5xl font-semibold leading-[1.02] tracking-tight text-white md:text-7xl">
             We Craft Future Dream Homes.

@@ -22,8 +22,8 @@ export default function Navbar() {
       <div className="mx-auto max-w-7xl rounded-2xl border border-white/10 bg-black/50 px-4 py-3 shadow-lg backdrop-blur-md">
         <div className="flex items-center justify-between gap-4">
           <Link to="/" className="flex min-w-0 items-center">
-            <img src="/logo-1.webp" alt="RS Group Logo" className="mr-3 h-12 w-auto sm:h-14 md:h-16" />
-            <span className="truncate text-base font-bold sm:text-lg">RS Group</span>
+            <img src="/rivierawhite.png" alt="Riviera Greens Logo" className="mr-3 h-12 w-auto sm:h-14 md:h-16" />
+            <span className="truncate text-base font-bold sm:text-lg">Riviera Greens</span>
           </Link>
 
           <div className="hidden items-center gap-6 lg:flex">

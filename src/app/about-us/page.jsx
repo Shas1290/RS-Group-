@@ -43,7 +43,7 @@ const journey = [
     year: "Foundation",
     title: "A vision rooted in trust",
     description:
-      "RS Group began with a simple purpose: create better spaces and elevate the experience of modern living.",
+      "Riviera Greens began with a simple purpose: create better spaces and elevate the experience of modern living.",
   },
   {
     year: "Growth",
@@ -118,7 +118,7 @@ export default function AboutUs() {
         <div className="absolute inset-0">
           <img
             src="/garden_image.webp"
-            alt="RS Group development"
+            alt="Riviera Greens development"
             className="h-full w-full object-cover"
           />
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(217,167,74,0.22),transparent_32%),linear-gradient(135deg,rgba(4,10,20,0.86),rgba(6,20,35,0.72),rgba(5,11,21,0.92))]" />
@@ -136,7 +136,8 @@ export default function AboutUs() {
               variants={item}
               className="mb-5 inline-flex items-center gap-3 rounded-full border border-white/15 bg-white/8 px-4 py-2 text-xs uppercase tracking-[0.35em] text-[#f0cd75] backdrop-blur"
             >
-              About RS Group
+              About Riviera Greens
+
             </motion.p>
 
             <motion.h1
@@ -150,7 +151,7 @@ export default function AboutUs() {
               variants={item}
               className="mt-6 max-w-2xl text-base leading-8 text-slate-200 md:text-lg"
             >
-              RS Group creates premium residential and commercial destinations shaped by thoughtful
+              Riviera Greens creates premium residential and commercial destinations shaped by thoughtful
               planning, reliable execution, and relationships that continue long after possession.
             </motion.p>
 
@@ -232,7 +233,7 @@ export default function AboutUs() {
               The name of trust, legacy, and excellence.
             </h2>
             <p className="mt-6 text-base leading-8 text-slate-300">
-              RS Group started its journey with the aim of creating meaningful spaces and redefining
+              Riviera Greens started its journey with the aim of creating meaningful spaces and redefining
               how people experience living, investment, and community. Our developments are designed
               to feel aspirational, practical, and dependable at the same time.
             </p>
@@ -306,7 +307,7 @@ export default function AboutUs() {
             <div className="relative h-full min-h-[360px]">
               <img
                 src="/Garden.webp"
-                alt="RS Group lifestyle experience"
+                alt="Riviera Greens lifestyle experience"
                 className="absolute inset-0 h-full w-full object-cover"
               />
               <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(6,12,22,0.08),rgba(6,12,22,0.82))]" />

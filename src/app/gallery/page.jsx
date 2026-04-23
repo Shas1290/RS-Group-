@@ -175,7 +175,7 @@ export default function Gallery() {
         <div className="absolute inset-0">
           <img
             src="/Property.jpg"
-            alt="RS Group gallery hero"
+            alt="Riviera Greens gallery hero"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-[linear-gradient(135deg,rgba(4,11,21,0.88),rgba(8,25,43,0.72),rgba(4,11,21,0.94))]" />
@@ -195,7 +195,7 @@ export default function Gallery() {
                 Visual Gallery
               </p>
               <h1 className="mt-6 text-5xl font-semibold leading-[1.02] tracking-tight text-white md:text-7xl">
-                A more cinematic window into Riviera Greens and the RS Group experience.
+                A more cinematic window into Riviera Greens and the Riviera Greens experience.
               </h1>
               <p className="mt-6 max-w-2xl text-base leading-8 text-slate-200 md:text-lg">
                 Explore signature moments across entry experience, open spaces, amenities, and the

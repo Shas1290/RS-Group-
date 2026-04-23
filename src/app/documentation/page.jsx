@@ -98,7 +98,7 @@ const documentCategories = [
     documents: [
 
       { id: 6, title: "Official E-Brochure", date: "Apr 2026", file: "/Riviera-Greens-Brochure.pdf" },
-      { id: 7, title: "RS Group Profile", date: "Apr 2026", file: "/profile.png" },
+      { id: 7, title: "Riviera Greens Profile", date: "Apr 2026", file: "/profile.png" },
 
       
 
