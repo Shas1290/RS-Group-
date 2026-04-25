@@ -46,7 +46,7 @@ const galleryImages = [
   },
   {
     id: 11,
-    src: "/Amenities.png",
+    src: "/garden_image.webp",
     alt: "Premium amenities and shared spaces",
     title: "Amenity Experience",
     category: "Amenities",
@@ -95,7 +95,7 @@ const galleryImages = [
   },
   {
     id: 13,
-    src: "/location.png",
+    src: "/Park.webp",
     alt: "Essential destinations near the project",
     title: "Local Value Around You",
     category: "Location Value",
